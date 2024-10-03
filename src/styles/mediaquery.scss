@@ -1,0 +1,105 @@
+@import "colors";
+
+@media screen and (max-width: 820px){
+    .home-3 {
+        height: 120vh;
+        > div {
+            height: 120vh;
+        }
+    }
+
+    .contact > main {
+        height: 100vh;
+        width: 100%;
+        border-radius: 0%;
+        >h1 {
+            text-align: center;
+            padding-block: 1rem;
+        }
+    }
+}
+@media screen and (max-width: 700px){
+
+    nav {
+        padding: 1.3rem;
+        border-bottom: 1px solid #dadada;
+        > h1 {
+            display: none;
+        }
+        > div {
+            width: 100%;
+            justify-content: center;
+            > a {
+                margin: 0.5rem;
+            }
+        }
+
+    }
+    main {
+       align-items: center !important;
+    }
+    .home > main > h1{
+        font-size: 3rem;
+    }
+
+    .home-2 {
+        height: 130vh;
+        flex-direction: column;
+        img {
+            width: 100%;
+        }
+        div {
+            width: 100%;
+        }
+    }
+
+    .home-3 > div {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+        > p {
+            padding: 5rem 2rem;
+            font-size: 1rem;
+            line-height: 150%;
+        }
+    }
+
+    .home-4{
+        align-items: center;
+        > div {
+            width: 100%;
+            height: unset;
+            border-radius: 0%;
+        }
+    }
+
+    .contact > main {
+        padding: 1rem;
+        h1 {
+            margin: 1rem;
+        }
+        > form {
+            margin: 0%;
+            > div {
+                width: 100%;
+            }
+        }
+
+    }
+    footer {
+        height: 50vh;
+        grid-template-columns: 1fr;
+        padding: 5rem;
+        > div {
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    nav > div {
+        > a {
+            font-size: 1rem;
+        }
+    }
+}
